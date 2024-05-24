@@ -1,0 +1,25 @@
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .filter label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .filter .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

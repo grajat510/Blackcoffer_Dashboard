@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Chart Styles */
+.chart-container {
+  margin-bottom: 2rem;
+}
+
+/* Filter Styles */
+.row {
+  margin-bottom: 1rem;
+}
+
+.col {
+  margin-bottom: 1rem;
+}
+
+.col label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.col .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.col .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+/* Custom Styles */
+.custom-heading {
+  color: #007bff;
+}
+
+.custom-form {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}

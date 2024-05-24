@@ -1,0 +1,25 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .chart-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 600px;
+  }
+  
+  .chart-container h3 {
+    color: #fff;
+  }
+  
